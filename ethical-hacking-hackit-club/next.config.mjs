@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
+// next.config.js
 const nextConfig = {
-  reactStrictMode: true,
-};
+    images: {
+      domains: ['aceternity.com','localhost'],
+    },
+  };
 
-export default nextConfig;
+  export default nextConfig;
+
