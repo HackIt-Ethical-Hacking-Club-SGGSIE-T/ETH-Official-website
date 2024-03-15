@@ -37,7 +37,19 @@ import {
   crossSite,
   dataleak,
   emailSpoofing,
-  passwordManagement
+  passwordManagement,
+
+  // team
+  // president,
+  // vice_president,
+  // secretary,
+  // student_main,
+  // website_main,
+  // finance_main,
+  // internship_main,
+  // media_main,
+  // workshop_main,
+  // content_main,
 } from '../_assets/index';
 
 
@@ -165,43 +177,43 @@ export const roadmap = [
     id: "0",
     title: "Wifi Hacking",
     text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date:  currentDateStr,
-    topTag:'Exploiting weak encryption, rogue access points, and vulnerabilities.',
+    date: currentDateStr,
+    topTag: 'Exploiting weak encryption, rogue access points, and vulnerabilities.',
     status: "done",
     imageUrl: '/imgs/first.jpg',
     colorful: true,
-    link:'https://www.hackthebox.com/hacker'
+    link: 'https://www.hackthebox.com/hacker'
   },
   {
     id: "1",
     title: "Web Security",
     text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    topTag:'Strong encryption, regular updates, robust authentication, and user awareness.',
+    topTag: 'Strong encryption, regular updates, robust authentication, and user awareness.',
     status: "progress",
     date: twoDaysAfterStr,
     imageUrl: '/imgs/second.jpg',
-    link:"https://www.hacksplaining.com/lessons"
+    link: "https://www.hacksplaining.com/lessons"
   },
   {
     id: "2",
     title: "Networking",
     text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date:  twoDaysBeforeStr,
-    topTag:'Efficient routing, reliable connections, scalable infrastructure, and security protocols',
+    date: twoDaysBeforeStr,
+    topTag: 'Efficient routing, reliable connections, scalable infrastructure, and security protocols',
     status: "done",
     imageUrl: '/imgs/third.jpg',
-    link:'https://tryhackme.com/'
+    link: 'https://tryhackme.com/'
   },
   {
     id: "3",
     title: "Cryptography",
     text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date:  currentDateStr,
+    date: currentDateStr,
     status: "progress",
-    topTag:'Secure encryption, cryptographic algorithms, key management, and digital signatures.',
+    topTag: 'Secure encryption, cryptographic algorithms, key management, and digital signatures.',
     imageUrl: '/imgs/fourth.jpg',
-    link:'https://cryptohack.org/',
-    colorful:true
+    link: 'https://cryptohack.org/',
+    colorful: true
   },
 ];
 
@@ -342,13 +354,14 @@ export const teamHierarchy = [
     // backgroundUrl: "./src/assets/benefits/card-1.svg",
     // iconUrl: benefitIcon1,
     // imageUrl: benefitImage2,
+    imageLink: '/imgs/icon.png'
   },
   {
     id: "1",
     title: "Vice President",
     text: "Support the President in club management and decision-making. Oversee team coordination and project execution. Assist in event planning and logistics.",
     // backgroundUrl: "./src/assets/benefits/card-2.svg",
-     imageLink:'/icon.png',
+    imageLink: '/imgs/teamDetails/vice.png',
     // iconUrl: benefitIcon2,
     // imageUrl: benefitImage2,
     // light: true,
@@ -358,7 +371,7 @@ export const teamHierarchy = [
     title: "Secretary",
     text: "Manage and organize club documentation and records. Facilitate seamless communication within the club. Schedule and organize club meetings.",
     // backgroundUrl: "./src/assets/benefits/card-2.svg",
-     imageLink:'',
+    imageLink: '/imgs/teamDetails/secretary.webp',
     // iconUrl: benefitIcon2,
     // imageUrl: benefitImage2,
     // light: true,
@@ -368,7 +381,7 @@ export const teamHierarchy = [
     title: "Student Main Coordinator",
     text: "Facilitate the onboarding of new members. Manage club membership records. Organize membership drives and engagement activities.",
     // backgroundUrl:"./src/assets/benefits/card-3.svg",
-    imageLink:''
+    imageLink: '/imgs/teamDetails/student_main.jpg',
     // iconUrl: benefitIcon3,
     // imageUrl: benefitImage2,
   },
@@ -377,7 +390,7 @@ export const teamHierarchy = [
     title: "Website Main Coordinator",
     text: "Maintaining club's website and online presence. Oversee IT-related communications within the club. Ensure the security and functionality of online platforms.",
     // backgroundUrl: "./src/assets/benefits/card-5.svg",
-    imageLink:''
+    imageLink: '/imgs/teamDetails/website.png',
     // iconUrl: benefitIcon1,
     // imageUrl: benefitImage2,
   },
@@ -386,7 +399,7 @@ export const teamHierarchy = [
     title: "Finance Main Coordinator",
     text: "Manage the club's financial activities and budget. Plan and allocate finances for events and activities. Coordinate financial matters with the institute.",
     // backgroundUrl: "./src/assets/benefits/card-6.svg",
-    imageLink:'',
+    imageLink: '/imgs/teamDetails/finance.png',
     // iconUrl: benefitIcon2,
     // imageUrl: benefitImage2,
     // light:true
@@ -396,7 +409,7 @@ export const teamHierarchy = [
     title: "Internship Main Coordinator",
     text: "Plan and execute club events, workshops, and seminars.Coordinate logistics, venues, and speakers. Develop educational programs and training initiatives.",
     // backgroundUrl: "./src/assets/benefits/card-6.svg",
-    imageLink:'',
+    imageLink: '/imgs/teamDetails/internship.png',
     // iconUrl: benefitIcon2,
     // imageUrl: benefitImage2,
     // light:true
@@ -406,7 +419,7 @@ export const teamHierarchy = [
     title: "Media Main Coordinator",
     text: "Produce visual assets such as graphics, photos, and videos. Coordinate content schedules and campaigns. Manage social media accounts and engage with followers.",
     // backgroundUrl: "./src/assets/benefits/card-6.svg",
-    imageLink:'',
+    imageLink: '/imgs/teamDetails/media.png',
     // iconUrl: benefitIcon2,
     // imageUrl: benefitImage2,
     // light:true
@@ -416,7 +429,7 @@ export const teamHierarchy = [
     title: "Workshop Main Coordinator",
     text: "Recruit and coordinate expert speakers and presenters. Collect feedback and evaluate workshop effectiveness for improvement. Stay updated on industry trends and best practices for workshop development.",
     // backgroundUrl: "./src/assets/benefits/card-6.svg",
-    imageLink:'',
+    imageLink: '/imgs/teamDetails/workshop.png',
     // iconUrl: benefitIcon2,
     // imageUrl: benefitImage2,
     // light:true
@@ -426,7 +439,7 @@ export const teamHierarchy = [
     title: "Research & Content Main Coordinator",
     text: "Create and curate engaging multimedia content. Collaborate with other teams for content promotion. Analyze content performance and optimize strategies accordingly.",
     // backgroundUrl: "./src/assets/benefits/card-6.svg",
-    imageLink:'',
+    imageLink: '/imgs/teamDetails/content.png',
     // iconUrl: benefitIcon2,
     // imageUrl: benefitImage2,
     // light:true

@@ -5,9 +5,11 @@ const Navbar = dynamic(() => import('@/app/_components/Navbar'), { ssr: false })
 import Footer from '../../_components/Footer';
 const Page = () => {
   return (
-    <div className='text-2xl text-center'>About
+    <div className='text-2xl text-center'>
      <Navbar/>
-      <Footer/></div>
+      About
+      <Footer/>
+      </div>
   )
 }
 

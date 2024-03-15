@@ -82,6 +82,17 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+// import president from '/icon.png';
+// import vice_president from '/imgs/teamDetails/vice.png';
+// import secretary from '/imgs/teamDetails/secretary.webp';
+// import student_main from '/imgs/teamDetails/student_main.jpg';
+// import website_main from '/imgs/teamDetails/website.png';
+// import finance_main from '/imgs/teamDetails/finance.png';
+// import internship_main from '/imgs/teamDetails/internship.png';
+// import media_main from '/imgs/teamDetails/media.png';
+// import workshop_main from '/imgs/teamDetails/workshop.png';
+// import content_main from '/imgs/teamDetails/content.png';
+
 
 export {
   brainwave,
@@ -156,5 +167,16 @@ export {
   instagram,
   telegram,
   twitter,
+
+  // president,
+  // vice_president,
+  // secretary,
+  // student_main,
+  // website_main,
+  // finance_main,
+  // internship_main,
+  // media_main,
+  // workshop_main,
+  // content_main
 };
 

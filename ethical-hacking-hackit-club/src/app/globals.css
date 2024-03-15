@@ -14,7 +14,9 @@
   }
 }
 
-
+.mgcl-content-ui-p6ewiq{
+  display: none;
+}
 :root {
   --font-sora: "Sora", sans-serif;
   --font-code: "Source Code Pro", monospace;

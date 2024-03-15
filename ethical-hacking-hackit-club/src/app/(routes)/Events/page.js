@@ -8,8 +8,9 @@ const Page = () => {
   return (
     <div className='text-2xl text-center'>
       <Navbar/>
+
       <Footer/>
-      Events</div>
+     </div>
   )
 }
 
