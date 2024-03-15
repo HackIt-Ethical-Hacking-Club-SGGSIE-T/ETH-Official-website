@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="lg:h-[300vh] md:h-[150vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -105,7 +105,7 @@ export const Header = () => {
   return (
     <div className="relative top-0 left-0 w-full px-4 py-20 mx-auto max-w-7xl md:py-40">
       <h1 className="text-2xl font-bold md:text-7xl">
-        The Ultimate <br /> development studio
+       We Are <br /> The Official Hacking Club SGGSIE&T
       </h1>
       <p className="max-w-2xl mt-8 text-base md:text-xl">
         We build beautiful products with the latest technologies and frameworks.
@@ -134,6 +134,7 @@ export const ProductCard = ({
       <Link
         href={product.link}
         className="block group-hover/product:shadow-2xl "
+        target="_blank"
       >
         <Image
           src={product.thumbnail}

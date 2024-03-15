@@ -2,7 +2,7 @@
 // next.config.js
 const nextConfig = {
     images: {
-      domains: ['aceternity.com'],
+      domains: ['aceternity.com','localhost'],
     },
   };
 

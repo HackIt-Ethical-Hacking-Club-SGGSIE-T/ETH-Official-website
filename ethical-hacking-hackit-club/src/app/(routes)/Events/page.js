@@ -7,7 +7,7 @@ import Footer from '../../_components/Footer';
 const Page = () => {
   return (
     <div className='text-2xl text-center'>
-       <Navbar/>
+      <Navbar/>
       <Footer/>
       Events</div>
   )

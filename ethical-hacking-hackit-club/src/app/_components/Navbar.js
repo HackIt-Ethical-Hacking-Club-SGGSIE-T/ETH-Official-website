@@ -35,6 +35,7 @@ const Navbar = () => {
         <div
             className={`fixed top-0 left-0 w-full z-50  lg:bg-n-8/20 lg:backdrop-blur-sm ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
                 }`}
+            id='top-id'
             >
             <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
                 <Link className="block w-[12rem] xl:mr-8" href="/">
@@ -57,7 +58,7 @@ const Navbar = () => {
                                 href={item.url}
                                 onClick={handleClick}
                                 className={`block relative font-code text-[20px] uppercase text-n-6 transition-colors hover:text-color-4 ${item.onlyMobile ? "lg:hidden" : ""
-                                    } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-[18px] lg:font-semibold ${item.url === pathname.hash
+                                    } px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-[18px] lg:hover:border-b md:font-bold md:text-2xl lg:font-semibold ${item.url === pathname.hash
                                         ? "z-2 lg:text-n-6"
                                         : "lg:text-n-1"
                                     } lg:leading-5 lg:hover:text-n-6 xl:px-12`}
@@ -71,7 +72,7 @@ const Navbar = () => {
                 </nav>
 
 
-                <Button white={false} className="hidden lg:flex" href="#" onClick={(e) => { e.preventDefault(); }}>
+                <Button white={false} className="hidden lg:flex" href="#hero" onClick={(e) => { e.preventDefault(); }}>
                     Lets Go
                 </Button>
 

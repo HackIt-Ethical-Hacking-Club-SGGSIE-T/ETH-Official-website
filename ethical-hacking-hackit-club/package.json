@@ -15,6 +15,7 @@
     "react": "^18",
     "react-dom": "^18",
     "react-just-parallax": "^3.1.16",
+    "react-parallax-tilt": "^1.7.215",
     "scroll-lock": "^2.1.5",
     "tailwind-merge": "^2.2.1"
   },

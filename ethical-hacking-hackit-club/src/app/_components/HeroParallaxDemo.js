@@ -1,47 +1,38 @@
 "use client";
 import React from "react";
 import { HeroParallax } from "./srcs/hero-parallax";
+import coursera from '../_assets/parallax/coursera.png';
+import cybrary from '../_assets/parallax/cybrary.png';
+import edureka from '../_assets/parallax/edureka.png';
+import hackthebox from '../_assets/parallax/hackthebox.png';
+import offsec from '../_assets/parallax/offsec.png';
+import tryhackme from '../_assets/parallax/tryhackme.png';
+
 
 export default function HeroParallaxDemo() {
   return React.createElement(HeroParallax, { products: products });
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+    title: "Cybrary",
+    link: "https://www.cybrary.it/course/ethical-hacking",
+    thumbnail: cybrary
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    title: "HackTheBox",
+    link: "https://www.hackthebox.com/hacker",
+    thumbnail:hackthebox
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+    title: "TryHackMe",
+    link: "https://tryhackme.com/",
+    thumbnail: tryhackme
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
-  },
-  {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+    title: "OffSec",
+    link: "https://www.offsec.com/metasploit-unleashed/",
+    thumbnail: offsec
   },
 
   {
@@ -54,7 +45,17 @@ export const products = [
     title: "Aceternity UI",
     link: "https://ui.aceternity.com",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+    "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
+  },
+  {
+    title: "Coursera",
+    link: "https://www.coursera.org/learn/ethical-hacking-essentials-ehe",
+    thumbnail: coursera
+  },
+  {
+    title: "Edureka",
+    link: "https://www.edureka.co/cybersecurity-certification-training",
+    thumbnail: edureka
   },
   {
     title: "Tailwind Master Kit",
